@@ -1,4 +1,4 @@
-.particular {
+.intro {
 	position: relative;
 	width: 100%;
 	height:100%;
@@ -9,7 +9,7 @@
 	z-index: -3;
 }
 
-.main .particular {
+.main .intro {
 	background-image: url('../img/background.jpg');
 }
 
