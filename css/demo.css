@@ -43,3 +43,14 @@ section {
 p.ref {
 	text-align: center;
 }
+
+p.social {
+	text-align: center;
+}
+.icon {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 4px;
+	fill: #fff;"
+}
