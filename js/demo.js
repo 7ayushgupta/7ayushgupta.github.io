@@ -15,7 +15,7 @@
         largeHeader = document.getElementById('section-1');
         largeHeader.style.height = height+'px';
 
-        canvas = document.getElementById('canvas');
+        canvas = document.getElementById('canvas1');
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
