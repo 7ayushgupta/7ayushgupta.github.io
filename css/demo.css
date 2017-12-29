@@ -9,11 +9,21 @@
 		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
 
-*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, *:after, *:before { margin:0; padding:0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
+canvas1
+{
+height:100%;
+width:100%;
+position:absolute;
+}
+
+html{height:100%;}
+
 body {
+	height:100%;
 	background: #fff;
 	color: #383a3c;
 	font-weight: 400;
@@ -40,11 +50,12 @@ section {
 	text-align: center;
 }
 
-p.ref {
+.ref {
+	font-color:#566473;
 	text-align: center;
 }
 
-p.social {
+.social {
 	text-align: center;
 }
 .icon {
@@ -53,4 +64,10 @@ p.social {
 	position: relative;
 	top: 4px;
 	fill: #fff;"
+}
+.foot{
+	background-color:#383a3c;
+	text-align:center;
+	color:black;
+	padding: 1em;
 }

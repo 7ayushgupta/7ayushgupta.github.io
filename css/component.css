@@ -24,10 +24,17 @@
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
-
+.information .info{
+	text-align: center;
+	font-size: 3.7em;
+	font-weight:400;
+}
+.information .info .thin{
+	font-weight: 200;
+}
 .main .main-title{
 	text-transform: uppercase;
-	font-size: 4.2em;
+	font-size: 5.0em;
 	letter-spacing: 0.1em;
 }
 
@@ -35,6 +42,14 @@
 	font-weight: 200;
 }
 
+.information .email{
+	text-align:center;
+	padding:1.2em;
+	font-weight:200;
+}
+.information .email .thick {
+	font-weight:225;
+}
 @media only screen and (max-width : 768px) {
 	.main .main-title{
 		font-size: 3em;
