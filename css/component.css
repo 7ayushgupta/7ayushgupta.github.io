@@ -111,6 +111,9 @@
 	.back .interestspara{
 		font-size:1 em;
 	}
+	.study .studymaterial{
+		font-size: 1em;
+	}
 }
 
 .no-js #loader { display: none;  }
