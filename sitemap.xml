@@ -3,43 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>https://7ayushgupta.github.io/authors/admin/</loc>
+    <lastmod>2019-12-02T17:55:51+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/authors/ayush/</loc>
+    <loc>https://7ayushgupta.github.io/authors/ayush/</loc>
+    <lastmod>2019-12-02T17:55:51+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://7ayushgupta.github.io/authors/</loc>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>https://7ayushgupta.github.io/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://7ayushgupta.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://7ayushgupta.github.io/post/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://7ayushgupta.github.io/publication_types/</loc>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>https://7ayushgupta.github.io/publication/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>https://7ayushgupta.github.io/talk/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://7ayushgupta.github.io/tags/</loc>
   </url>
   
 </urlset>
