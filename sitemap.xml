@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://7ayushgupta.github.io/authors/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/authors/ayush-gupta/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/categories/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/categories/computer-vision/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/research_project/rgbd-reconstruction/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/tags/research/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/research_project/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/tags/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://7ayushgupta.github.io/categories/uav/</loc>
+    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://7ayushgupta.github.io/authors/admin/</loc>
     <lastmod>2019-12-02T17:55:51+05:30</lastmod>
   </url>
@@ -10,18 +60,6 @@
   <url>
     <loc>https://7ayushgupta.github.io/authors/ayush/</loc>
     <lastmod>2019-12-02T17:55:51+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://7ayushgupta.github.io/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://7ayushgupta.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://7ayushgupta.github.io/categories/</loc>
   </url>
   
   <url>
@@ -41,10 +79,6 @@
   <url>
     <loc>https://7ayushgupta.github.io/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://7ayushgupta.github.io/tags/</loc>
   </url>
   
 </urlset>

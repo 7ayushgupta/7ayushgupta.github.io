@@ -5,12 +5,28 @@
     <link>https://7ayushgupta.github.io/categories/</link>
       <atom:link href="https://7ayushgupta.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Mon, 02 Dec 2019 18:51:50 +0530</lastBuildDate>
     <image>
       <url>https://7ayushgupta.github.io/img/icon-192.png</url>
       <title>Categories</title>
       <link>https://7ayushgupta.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://7ayushgupta.github.io/categories/computer-vision/</link>
+      <pubDate>Mon, 02 Dec 2019 18:51:50 +0530</pubDate>
+      <guid>https://7ayushgupta.github.io/categories/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UAV</title>
+      <link>https://7ayushgupta.github.io/categories/uav/</link>
+      <pubDate>Mon, 02 Dec 2019 18:51:50 +0530</pubDate>
+      <guid>https://7ayushgupta.github.io/categories/uav/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

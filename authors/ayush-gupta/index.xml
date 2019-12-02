@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ayush Gupta</title>
-    <link>https://7ayushgupta.github.io/</link>
-      <atom:link href="https://7ayushgupta.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://7ayushgupta.github.io/authors/ayush-gupta/</link>
+      <atom:link href="https://7ayushgupta.github.io/authors/ayush-gupta/index.xml" rel="self" type="application/rss+xml" />
     <description>Ayush Gupta</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Mon, 02 Dec 2019 18:51:50 +0530</lastBuildDate>
     <image>
       <url>https://7ayushgupta.github.io/img/icon-192.png</url>
       <title>Ayush Gupta</title>
-      <link>https://7ayushgupta.github.io/</link>
+      <link>https://7ayushgupta.github.io/authors/ayush-gupta/</link>
     </image>
     
     <item>

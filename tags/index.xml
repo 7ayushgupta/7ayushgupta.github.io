@@ -5,12 +5,20 @@
     <link>https://7ayushgupta.github.io/tags/</link>
       <atom:link href="https://7ayushgupta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Mon, 02 Dec 2019 18:51:50 +0530</lastBuildDate>
     <image>
       <url>https://7ayushgupta.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://7ayushgupta.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>research</title>
+      <link>https://7ayushgupta.github.io/tags/research/</link>
+      <pubDate>Mon, 02 Dec 2019 18:51:50 +0530</pubDate>
+      <guid>https://7ayushgupta.github.io/tags/research/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
