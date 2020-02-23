@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UAV | Ayush Gupta</title>
-    <link>https://7ayushgupta.github.io/categories/uav/</link>
-      <atom:link href="https://7ayushgupta.github.io/categories/uav/index.xml" rel="self" type="application/rss+xml" />
+    <title>UAV | Academic</title>
+    <link>/categories/uav/</link>
+      <atom:link href="/categories/uav/index.xml" rel="self" type="application/rss+xml" />
     <description>UAV</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019</copyright><lastBuildDate>Mon, 02 Dec 2019 18:51:50 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 02 May 2019 18:51:50 +0530</lastBuildDate>
     <image>
-      <url>https://7ayushgupta.github.io/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>UAV</title>
-      <link>https://7ayushgupta.github.io/categories/uav/</link>
+      <link>/categories/uav/</link>
     </image>
     
     <item>
       <title>Realtime Onboard Dense RGB-D Mapping on UAVs</title>
-      <link>https://7ayushgupta.github.io/research_project/rgbd-reconstruction/</link>
-      <pubDate>Mon, 02 Dec 2019 18:51:50 +0530</pubDate>
-      <guid>https://7ayushgupta.github.io/research_project/rgbd-reconstruction/</guid>
-      <description></description>
+      <link>/research_projects/rgbd-reconstruction/</link>
+      <pubDate>Thu, 02 May 2019 18:51:50 +0530</pubDate>
+      <guid>/research_projects/rgbd-reconstruction/</guid>
+      <description>&lt;p&gt;Dense RGB-D map of environments have applications in aerial drone navigation, robotic manipulation, reconnaissance operations and semantic mapping. This mapping process is quite computationally expensive, with the main bottleneck being the generation of point clouds from the visual inputs. We have made use of both Monocular Cameras and RGB-D cameras for evaluating the feasibility and accuracy of the systems, while noting the processing speed of the entire system, accounting for the less computational power present on an aerial drone due to its scarce size and energy resources.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

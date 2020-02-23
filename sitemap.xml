@@ -3,82 +3,102 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://7ayushgupta.github.io/authors/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/authors/ayush-gupta/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/authors/akhil-krishna/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/authors/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/categories/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/authors/ayush-gupta/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/categories/computer-vision/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/authors/bharath-choudhary/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/research_project/rgbd-reconstruction/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/tags/research/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/categories/numerical-simulations/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/research_project/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/tags/research/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/tags/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/research_projects/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/categories/uav/</loc>
-    <lastmod>2019-12-02T18:51:50+05:30</lastmod>
+    <loc>/research_projects/orbital-debris-mitigation/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/authors/admin/</loc>
-    <lastmod>2019-12-02T17:55:51+05:30</lastmod>
+    <loc>/categories/space-dynamics/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/authors/ayush/</loc>
-    <lastmod>2019-12-02T17:55:51+05:30</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/post/</loc>
-    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+    <loc>/categories/computer-vision/</loc>
+    <lastmod>2019-05-02T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/publication_types/</loc>
+    <loc>/research_projects/rgbd-reconstruction/</loc>
+    <lastmod>2019-05-02T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/publication/</loc>
-    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+    <loc>/categories/uav/</loc>
+    <lastmod>2019-05-02T18:51:50+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://7ayushgupta.github.io/talk/</loc>
-    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+    <loc>/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/ayush/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
   </url>
   
 </urlset>
