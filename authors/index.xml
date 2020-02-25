@@ -12,48 +12,5 @@
       <link>/authors/</link>
     </image>
     
-    <item>
-      <title>Akhil Krishna</title>
-      <link>/authors/akhil-krishna/</link>
-      <pubDate>Thu, 01 Aug 2019 18:51:50 +0530</pubDate>
-      <guid>/authors/akhil-krishna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ayush Gupta</title>
-      <link>/authors/ayush-gupta/</link>
-      <pubDate>Thu, 01 Aug 2019 18:51:50 +0530</pubDate>
-      <guid>/authors/ayush-gupta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bharath Choudhary</title>
-      <link>/authors/bharath-choudhary/</link>
-      <pubDate>Thu, 01 Aug 2019 18:51:50 +0530</pubDate>
-      <guid>/authors/bharath-choudhary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Junior Undergraduate at the Indian Institute of Technology, Kanpur&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/ayush/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/ayush/</guid>
-      <description>&lt;p&gt;I am a Junior Undergraduate at the Indian Institute of Technology, Kanpur in the Dept. of Mechanical Engineering. I am broadly interested in Robotics, with a particular interest in Computer Vision and Autonomous Systems.&lt;/p&gt;
-&lt;p&gt;For the past two years, I have been part of an incredible team at AUV-IITK, and have been directly responsible for the design and development of an autonomous underwater vehicle. Apart from that, I have been a member of the Intelligent Guidance &amp;amp; Control Laboratory, where I have worked on the control of UAVs, realtime RGB-D reconstruction of indoor areas, and space dynamics.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

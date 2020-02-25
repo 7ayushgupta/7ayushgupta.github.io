@@ -12,37 +12,5 @@
       <link>/categories/</link>
     </image>
     
-    <item>
-      <title>Numerical Simulations</title>
-      <link>/categories/numerical-simulations/</link>
-      <pubDate>Thu, 01 Aug 2019 18:51:50 +0530</pubDate>
-      <guid>/categories/numerical-simulations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Space Dynamics</title>
-      <link>/categories/space-dynamics/</link>
-      <pubDate>Thu, 01 Aug 2019 18:51:50 +0530</pubDate>
-      <guid>/categories/space-dynamics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer Vision</title>
-      <link>/categories/computer-vision/</link>
-      <pubDate>Thu, 02 May 2019 18:51:50 +0530</pubDate>
-      <guid>/categories/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UAV</title>
-      <link>/categories/uav/</link>
-      <pubDate>Thu, 02 May 2019 18:51:50 +0530</pubDate>
-      <guid>/categories/uav/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

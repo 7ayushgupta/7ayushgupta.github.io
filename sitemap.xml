@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/authors/ayush/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
@@ -79,10 +84,6 @@
   
   <url>
     <loc>/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>/authors/ayush/</loc>
   </url>
   
   <url>
