@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/akhil-krishna/</loc>
     <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
@@ -24,6 +19,11 @@
   
   <url>
     <loc>/authors/ayush-gupta/</loc>
+    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
   
@@ -83,11 +83,27 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>/categories/blog/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/internships/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/internship-blog/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
   </url>
   
   <url>
