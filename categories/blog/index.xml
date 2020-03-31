@@ -19,16 +19,18 @@
       <guid>/post/internship-blog/</guid>
       <description>&lt;p&gt;Hey everyone!
 Let me first introduce myself and try to give you an idea about my profile for the Internship seasons. My blog would be slightly different from others since I did not prepare for internships explicitly, but was dedicated to one field for a very long time.&lt;/p&gt;
-&lt;p&gt;CPI: Slightly above 9.0
-Department: Mechanical Engineering
-Position of Responsibility: Software Subsystem Lead, AUV-IITK
-Academic preference for SPO internships
-2 robotics-related projects (apart from AUV) in my resume.
-Experience in SLAM, Vision algorithms, Object-oriented Programming, State Machines, and their mathematical backgrounds
-Backend Software Development Intern at New York Office, IITK (Summers 2018)
-No projects related to Mechanical Engineering
-Minimal exposure to competitive coding (did not try more than two-three contests)
-MSO201 done in Summers (flunked it badly), ESO207 done in 5th semester&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CPI: Slightly above 9.0&lt;/li&gt;
+&lt;li&gt;Department: Mechanical Engineering&lt;/li&gt;
+&lt;li&gt;Position of Responsibility: Software Subsystem Lead, AUV-IITK&lt;/li&gt;
+&lt;li&gt;Academic preference for SPO internships&lt;/li&gt;
+&lt;li&gt;2 robotics-related projects (apart from AUV) in my resume.&lt;/li&gt;
+&lt;li&gt;Experience in SLAM, Vision algorithms, Object-oriented Programming, State Machines, and their mathematical backgrounds&lt;/li&gt;
+&lt;li&gt;Backend Software Development Intern at New York Office, IITK (Summers 2018)&lt;/li&gt;
+&lt;li&gt;No projects related to Mechanical Engineering&lt;/li&gt;
+&lt;li&gt;Minimal exposure to competitive coding (did not try more than two-three contests)&lt;/li&gt;
+&lt;li&gt;MSO201 done in Summers (flunked it badly), ESO207 done in 5th semester&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;pre-intern-season-preparations&#34;&gt;Pre-intern season preparations:&lt;/h2&gt;
 &lt;h3 id=&#34;first-year&#34;&gt;First-year:&lt;/h3&gt;
 &lt;p&gt;I had an interest in programming even before joining the college. Like every excited first-year student on campus, I attended all the technical lectures of various clubs. In my first semester, I tried my hands on competitive coding but left it soon enough. By the end, I only knew the names of different concepts and techniques but not the algorithms themselves. I also took part in RoboMonth, organized by RoboClub, and grew interested in robotics. I have been involved in at least one robotics project each semester from the beginning. After the SnT Team recruitments, I got into Team Humanoid. At the team, I worked on creating a GUI for their robot, integrating Robot Operating System and JavaScript. Some exposure in programming in the first semester helped me get selected in the Advanced Track project of ESC101. I created a messaging application and learned the fundamentals of web development. This helped me get an intern at the NYO (well, everyone who knew some basic programming got it). Along with that, I worked on vision algorithms in Team AUV for the entire Summers.&lt;/p&gt;
