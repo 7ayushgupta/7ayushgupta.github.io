@@ -33,52 +33,13 @@ are done using Nonlinear Control Theory.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Reinforcement Learning Specialisation</title>
-      <link>/post/learning-lockdown/rl/</link>
-      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/post/learning-lockdown/rl/</guid>
-      <description>&lt;p&gt;I started off learning the 
-&lt;a href=&#34;https://www.coursera.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reinforcement Learning Specialisation&lt;/a&gt; to finally learn reinforcement learning formally. I have been learning it on my own till now. With no special courses in Robotics at my college, I had to make up for it with online courses.&lt;/p&gt;
-&lt;p&gt;I had started studing material on Robotics in my 3rd semester with minimal exposure to statistics and probability theory, and was never able to understand the formal proofs completely. I moved on to applications quickly, and learnt from there. In hindsight, it was a superb decision, as relearning material made me focus on things which were important from practical aspects, and also learn the maths in a more formal manner.&lt;/p&gt;
-&lt;h2 id=&#34;fundamentals-of-reinforcement-learning&#34;&gt;Fundamentals of Reinforcement Learning&lt;/h2&gt;
-&lt;p&gt;The first course in this specialisation is 
-&lt;a href=&#34;https://www.coursera.org/learn/fundamentals-of-reinforcement-learning/home/welcome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fundamentals of Reinforcement Learning&lt;/a&gt; mainly taught by Martha White, and Adam White. (I just noticed that they had the same surname).&lt;/p&gt;
-&lt;h3 id=&#34;week-1&#34;&gt;Week 1&lt;/h3&gt;
-&lt;p&gt;After a simple introduction to what is RL, the course moved on to &lt;code&gt;k-armed bandit&lt;/code&gt; problem. It closely followed the 2nd Chapter from the Bible on RL by Sutton, and it was given as a weekly reading assignment. It was pretty simple, with introduction to action-value approximations, sample average methods, epsilon-greedy technique, incremental implementation and finally the upper-confidence-bound action selection. Finally a video by Jonathan Langford on Contextual Bandits for Real World Reinforcement Learning was given, wherein he told about the reality gap and the difficulties faced in transferring problems from the simulator to the real world.&lt;/p&gt;
-&lt;p&gt;We can largely view the bandit problem as a subset of the larger reinforcement learning problem. Hence, the first week was an introduction to this.&lt;/p&gt;
-&lt;p&gt;The quiz was pretty easy and focussed on the update rule a lot. Apart from it, there were some simple questions on exploration vs exploitation tradeoffs.&lt;/p&gt;
-&lt;p&gt;$$q_{n+1}​=q_n​+α_n​[R_n​−q_n​]$$&lt;/p&gt;
-&lt;p&gt;Finally, the assignment had a Notebook for &lt;code&gt;Bandits and Exploration/Exploitation&lt;/code&gt; which was simple to solve. I ran into some issues with &lt;code&gt;np.random.seed&lt;/code&gt;, but I changed the seed given in the notebook to get a correct answer.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;A larger step size moves us more quickly toward the true value, but can make our estimated values oscillate around the expected value. A step size that reduces over time can converge to close to the expected value, without oscillating. On the other hand, such a decaying stepsize is not able to adapt to changes in the environment. Nonstationarity&amp;mdash;and the related concept of partial observability&amp;mdash;is a common feature of reinforcement learning problems and when learning online.&lt;/em&gt;&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;week-2&#34;&gt;Week 2&lt;/h3&gt;
-&lt;p&gt;Weekly reading assignment: Chapter 3.3 (pages 47-56) of Sutton&amp;rsquo;s book.&lt;/p&gt;
-&lt;p&gt;Due to my half-assed attempt at IME625 (Stochastic Processes), I knew about Markov Decision Processes in much more detail than before. Glided through the book in 20 mins, and started watching the lectures.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Dynamics of MDP&lt;/strong&gt;:
-$$p(s&amp;rsquo;,r|s, a) = Pr(S_t =s&amp;rsquo;,R_t = r|S_{t-1} = s, A_{t-1} = a)$$&lt;/p&gt;
-&lt;p&gt;The module talked about the &lt;em&gt;reward hypothesis&lt;/em&gt; and also discusses how all type of systems don&amp;rsquo;t work properly with a scalar reward function.
-A special lecture by Littman was provided, wherein he talked how over the years this hypothesis has shaped itself, and gave birth to different avenues in reinforcement learning.&lt;/p&gt;
-&lt;p&gt;The week ended with discussions on MDP, the strengths and flexibility of these, and their extensive application across all domains. The final assignment was peer-reviewed where we had to write down about 3 MDP, and their descriptions.&lt;/p&gt;
-&lt;p&gt;I am very interested in the stock market as well, and would definitely go about finding more about how Markov Decision Processes (and stochastic processes in general) can be applied to this.&lt;/p&gt;
-&lt;h3 id=&#34;week-3&#34;&gt;Week 3&lt;/h3&gt;
-&lt;p&gt;It started off with an outline of what this module would entail: specifically policy, value functions and Bellman equations. I know that already so I can go through it quickly again.&lt;/p&gt;
-&lt;h2 id=&#34;review-of-specialisation&#34;&gt;Review of Specialisation&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;They had very interesting games each week, which allowed us to understand the concepts better in a really fun way.&lt;/li&gt;
-&lt;li&gt;The videos were very properly edited, with outline and summary of the videos.&lt;/li&gt;
-&lt;li&gt;The assignments were detailed as well. These courses are certainly a notch up than other regular Coursera online coures.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Internships</title>
-      <link>/post/blogs/</link>
+      <link>/post/blogs/internships/</link>
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/post/blogs/</guid>
-      <description>&lt;p&gt;Hey everyone!
-Let me first introduce myself and try to give you an idea about my profile for the Internship seasons. My blog would be slightly different from others since I did not prepare for internships explicitly, but was dedicated to one field for a very long time.&lt;/p&gt;
+      <guid>/post/blogs/internships/</guid>
+      <description>&lt;p&gt;Hey everyone! Find the updated version on the 
+&lt;a href=&#34;https://anciitk.in/blog/Internship/5/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AnC website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let me first introduce myself and try to give you an idea about my profile for the Internship seasons. My blog would be slightly different from others since I did not prepare for internships explicitly, but was dedicated to one field for a very long time.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;CPI: Slightly above 9.0&lt;/li&gt;
 &lt;li&gt;Department: Mechanical Engineering&lt;/li&gt;

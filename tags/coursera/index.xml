@@ -5,12 +5,31 @@
     <link>/tags/coursera/</link>
       <atom:link href="/tags/coursera/index.xml" rel="self" type="application/rss+xml" />
     <description>Coursera</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ayush Gupta © 2020</copyright><lastBuildDate>Fri, 12 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ayush Gupta © 2020</copyright><lastBuildDate>Wed, 17 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Coursera</title>
       <link>/tags/coursera/</link>
     </image>
+    
+    <item>
+      <title>Quantum Machine Learning</title>
+      <link>/post/learning-lockdown/qml/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/post/learning-lockdown/qml/</guid>
+      <description>&lt;p&gt;Machine learning? Check. Quantum Statistics? Check. Combine them together to make up Quantum Machine Learning? Hell yeah! I&amp;rsquo;m interested. So, my friend Neelesh has been involved in Quantum Optics for a good two years now, and I&amp;rsquo;ve always been awed by the stuff he gets to learn. Now that we were in a lockdown, both of us decided to go over this field together.&lt;/p&gt;
+&lt;p&gt;We found a course on EDx, by Prof. Peter Wittick, from University of Toronto, working on &amp;ldquo;quantum-enhanced machine learning and applications of HPC algorithms to quantum physics.&amp;rdquo; The lectures were available on 
+&lt;a href=&#34;https://www.youtube.com/watch?v=bNCC0YMLHuk&amp;amp;list=PLmRxgFnCIhaMgvot-Xuym_hn69lmzIokg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;, and the associated codes were available on 
+&lt;a href=&#34;https://github.com/qosf/qml-mooc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. We quickly installed the software, and I found the idea of a quantum computer being emulated on our local machine very cool. We chose to work on the Forest-SDK, which is the compiler and backend for creating and simulating gates (something which they say would be needed in the future).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The most straightforward simulator backend &amp;ndash; called Quantum Virtual Machine (QVM) &amp;ndash; does exactly what we would expect: it runs a quantum algorithm and writes the measurement results to classical registers. After running a circuit a few times on the simulator, we can inspect the statistics of the results. We can define the number of qubits as part of instantiating the simulator.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Doesn&amp;rsquo;t sound very straightforward at all.&lt;/p&gt;
+&lt;h3 id=&#34;classical-and-quantum-probability-distributions&#34;&gt;Classical and Quantum Probability Distributions&lt;/h3&gt;
+&lt;p&gt;It begins with a simple coin toss, and tells about qubits. We are introducted with the ket function, and then entangled states as well. Negative probability doesn&amp;rsquo;t make sense to me right now. But it is interesting to see that you are simulating some numbers, but how the simulation is being done is out of my knowledge (sadly). The first notebook was very simple to understand, except one thing, which I&amp;rsquo;ll have to read about.&lt;/p&gt;
+&lt;p&gt;$$\frac{1}{\sqrt{2}}(-|0\rangle + |1\rangle)$$&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Reinforcement Learning Specialisation</title>

@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/ayush/</loc>
-    <lastmod>2019-08-01T18:51:50+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/akhil-krishna/</loc>
     <lastmod>2019-08-01T18:51:50+05:30</lastmod>
   </url>
@@ -83,23 +78,8 @@
   </url>
   
   <url>
-    <loc>/categories/course-reviews/</loc>
-    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/coursera/</loc>
-    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/learning-lockdown/rl/</loc>
-    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
+    <loc>/authors/ayush/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -113,7 +93,12 @@
   </url>
   
   <url>
-    <loc>/post/blogs/</loc>
+    <loc>/post/blogs/internships/</loc>
+    <lastmod>2019-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
     <lastmod>2019-03-31T00:00:00+00:00</lastmod>
   </url>
   
