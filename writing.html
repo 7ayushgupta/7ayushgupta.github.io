@@ -18,33 +18,69 @@
                     <a href="/">Home</a>
                     <a href="/writing.html">Writing</a>
                     <a href="/projects.html">Projects</a>
+                    <a href="/timeline.html">Timeline</a>
                 </div>
             </div>
         </nav>
     </header>
 
+    <aside class="sidebar">
+        <div class="sidebar-profile">
+            <div class="profile-avatar">AG</div>
+            <div class="profile-name">Ayush Gupta</div>
+        </div>
+        
+        <a href="/" class="nav-item">
+            <div class="nav-item-icon">🏠</div>
+            Home
+        </a>
+        
+        <div class="sidebar-section">
+            <div class="section-header">
+                <span>Craft</span>
+                <div class="section-chevron">▼</div>
+            </div>
+            <div class="section-content">
+                <a href="/writing.html" class="nav-item active">
+                    <div class="nav-item-icon">✏️</div>
+                    Writing
+                    <div class="nav-item-count">3</div>
+                </a>
+                <a href="/projects.html" class="nav-item">
+                    <div class="nav-item-icon">📊</div>
+                    Projects
+                </a>
+                <a href="/timeline.html" class="nav-item">
+                    <div class="nav-item-icon">📅</div>
+                    Timeline
+                </a>
+            </div>
+        </div>
+        
+        <div class="sidebar-section">
+            <div class="section-header">
+                <span>Connect</span>
+                <div class="section-chevron">▼</div>
+            </div>
+            <div class="section-content">
+                <a href="mailto:7ayushgupta@gmail.com" class="nav-item">
+                    <div class="nav-item-icon">📧</div>
+                    Email
+                </a>
+                <a href="https://github.com/7ayushgupta" target="_blank" rel="noopener" class="nav-item">
+                    <div class="nav-item-icon">💻</div>
+                    GitHub
+                </a>
+                <a href="/files/cv.pdf" target="_blank" rel="noopener" class="nav-item">
+                    <div class="nav-item-icon">📄</div>
+                    CV
+                </a>
+            </div>
+        </div>
+    </aside>
+
     <main>
         <div class="container">
-            <aside class="sidebar">
-                <div class="sidebar-section">
-                    <h2>Navigation</h2>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/writing.html">Writing</a></li>
-                        <li><a href="/projects.html">Projects</a></li>
-                    </ul>
-                </div>
-                
-                <div class="sidebar-section">
-                    <h2>Contact</h2>
-                    <ul>
-                        <li><a href="mailto:7ayushgupta@gmail.com">Email</a></li>
-                        <li><a href="https://github.com/7ayushgupta" target="_blank" rel="noopener">GitHub</a></li>
-                        <li><a href="/files/cv.pdf" target="_blank" rel="noopener">CV</a></li>
-                    </ul>
-                </div>
-            </aside>
-            
             <div class="main-content">
                 <h1>Writing</h1>
                 
@@ -92,5 +128,23 @@
             <p>&copy; 2024 Ayush Gupta</p>
         </div>
     </footer>
+
+<script>
+// Collapsible sidebar sections
+document.addEventListener('DOMContentLoaded', function() {
+    const sectionHeaders = document.querySelectorAll('.section-header');
+    
+    sectionHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+            const section = this.parentElement;
+            const content = section.querySelector('.section-content');
+            const chevron = this.querySelector('.section-chevron');
+            
+            content.classList.toggle('collapsed');
+            this.classList.toggle('collapsed');
+        });
+    });
+});
+</script>
 </body>
 </html>
