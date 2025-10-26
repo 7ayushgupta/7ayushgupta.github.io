@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reinforcement Learning Specialisation - Ayush Gupta</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="/" class="nav-brand">Ayush Gupta</a>
+                <div class="nav-links">
+                    <a href="/">Home</a>
+                    <a href="/writing.html">Writing</a>
+                    <a href="/projects.html">Projects</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/writing.html">Writing</a></li>
+                        <li><a href="/projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-section">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li><a href="mailto:7ayushgupta@gmail.com">Email</a></li>
+                        <li><a href="https://github.com/7ayushgupta" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="/files/cv.pdf" target="_blank" rel="noopener">CV</a></li>
+                    </ul>
+                </div>
+            </aside>
+            
+            <div class="main-content">
+                <article class="article-content">
+                    <div class="article-header">
+                        <h1 class="article-title">Reinforcement Learning Specialisation</h1>
+                        <div class="article-meta">Apr 2020</div>
+                    </div>
+
+                    <div class="article-content">
+                    <p>I started off learning the <a href="https://www.coursera.org" target="_blank" rel="noopener">Reinforcement Learning Specialisation</a> to finally learn reinforcement learning formally. I have been learning it on my own till now. With no special courses in Robotics at my college, I had to make up for it with online courses.</p>
+                    
+                    <p>I had started studing material on Robotics in my 3rd semester with minimal exposure to statistics and probability theory, and was never able to understand the formal proofs completely. I moved on to applications quickly, and learnt from there. In hindsight, it was a superb decision, as relearning material made me focus on things which were important from practical aspects, and also learn the maths in a more formal manner.</p>
+
+                    <h2>Fundamentals of Reinforcement Learning</h2>
+                    <p>The first course in this specialisation is <a href="https://www.coursera.org/learn/fundamentals-of-reinforcement-learning/home/welcome" target="_blank" rel="noopener">Fundamentals of Reinforcement Learning</a> mainly taught by Martha White, and Adam White. (I just noticed that they had the same surname).</p>
+
+                    <h3>Week 1</h3>
+                    <p>After a simple introduction to what is RL, the course moved on to <code>k-armed bandit</code> problem. It closely followed the 2nd Chapter from the Bible on RL by Sutton, and it was given as a weekly reading assignment. It was pretty simple, with introduction to action-value approximations, sample average methods, epsilon-greedy technique, incremental implementation and finally the upper-confidence-bound action selection. Finally a video by Jonathan Langford on Contextual Bandits for Real World Reinforcement Learning was given, wherein he told about the reality gap and the difficulties faced in transferring problems from the simulator to the real world.</p>
+                    
+                    <p>We can largely view the bandit problem as a subset of the larger reinforcement learning problem. Hence, the first week was an introduction to this.</p>
+                    
+                    <p>The quiz was pretty easy and focussed on the update rule a lot. Apart from it, there were some simple questions on exploration vs exploitation tradeoffs.</p>
+                    
+                    <p>$$q_{n+1}​=q_n​+α_n​[R_n​−q_n​]$$</p>
+                    
+                    <p>Finally, the assignment had a Notebook for <code>Bandits and Exploration/Exploitation</code> which was simple to solve. I ran into some issues with <code>np.random.seed</code>, but I changed the seed given in the notebook to get a correct answer.</p>
+                    
+                    <blockquote>
+                        <p><em>"A larger step size moves us more quickly toward the true value, but can make our estimated values oscillate around the expected value. A step size that reduces over time can converge to close to the expected value, without oscillating. On the other hand, such a decaying stepsize is not able to adapt to changes in the environment. Nonstationarity—and the related concept of partial observability—is a common feature of reinforcement learning problems and when learning online.</em>"</p>
+                    </blockquote>
+
+                    <h3>Week 2</h3>
+                    <p>Weekly reading assignment: Chapter 3.3 (pages 47-56) of Sutton's book.</p>
+                    
+                    <p>Due to my half-assed attempt at IME625 (Stochastic Processes), I knew about Markov Decision Processes in much more detail than before. Glided through the book in 20 mins, and started watching the lectures.</p>
+                    
+                    <p><strong>Dynamics of MDP</strong>:
+                    $$p(s',r|s, a) = Pr(S_t =s',R_t = r|S_{t-1} = s, A_{t-1} = a)$$</p>
+                    
+                    <p>The module talked about the <em>reward hypothesis</em> and also discusses how all type of systems don't work properly with a scalar reward function.</p>
+                    
+                    <p>A special lecture by Littman was provided, wherein he talked how over the years this hypothesis has shaped itself, and gave birth to different avenues in reinforcement learning.</p>
+                    
+                    <p>The week ended with discussions on MDP, the strengths and flexibility of these, and their extensive application across all domains. The final assignment was peer-reviewed where we had to write down about 3 MDP, and their descriptions.</p>
+                    
+                    <p>I am very interested in the stock market as well, and would definitely go about finding more about how Markov Decision Processes (and stochastic processes in general) can be applied to this.</p>
+
+                    <h3>Week 3</h3>
+                    <p>It started off with an outline of what this module would entail: specifically policy, value functions and Bellman equations. I know that already so I can go through it quickly again.</p>
+
+                    <h2>Review of Specialisation</h2>
+                    <ol>
+                        <li>They had very interesting games each week, which allowed us to understand the concepts better in a really fun way.</li>
+                        <li>The videos were very properly edited, with outline and summary of the videos.</li>
+                        <li>The assignments were detailed as well. These courses are certainly a notch up than other regular Coursera online coures.</li>
+                    </ol>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ayush Gupta</p>
+        </div>
+    </footer>
+</body>
+</html>

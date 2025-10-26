@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Machine Learning - Ayush Gupta</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="/" class="nav-brand">Ayush Gupta</a>
+                <div class="nav-links">
+                    <a href="/">Home</a>
+                    <a href="/writing.html">Writing</a>
+                    <a href="/projects.html">Projects</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/writing.html">Writing</a></li>
+                        <li><a href="/projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-section">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li><a href="mailto:7ayushgupta@gmail.com">Email</a></li>
+                        <li><a href="https://github.com/7ayushgupta" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="/files/cv.pdf" target="_blank" rel="noopener">CV</a></li>
+                    </ul>
+                </div>
+            </aside>
+            
+            <div class="main-content">
+                <article class="article-content">
+                    <div class="article-header">
+                        <h1 class="article-title">Quantum Machine Learning</h1>
+                        <div class="article-meta">Apr 2020</div>
+                    </div>
+
+                    <div class="article-content">
+                    <p>Machine learning? Check. Quantum Statistics? Check. Combine them together to make up Quantum Machine Learning? Hell yeah! I'm interested. So, my friend Neelesh has been involved in Quantum Optics for a good two years now, and I've always been awed by the stuff he gets to learn. Now that we were in a lockdown, both of us decided to go over this field together.</p>
+                    
+                    <p>We found a course on EDx, by Prof. Peter Wittick, from University of Toronto, working on "quantum-enhanced machine learning and applications of HPC algorithms to quantum physics." The lectures were available on <a href="https://www.youtube.com/watch?v=bNCC0YMLHuk&list=PLmRxgFnCIhaMgvot-Xuym_hn69lmzIokg" target="_blank" rel="noopener">Youtube</a>, and the associated codes were available on <a href="https://github.com/qosf/qml-mooc" target="_blank" rel="noopener">Github</a>. We quickly installed the software, and I found the idea of a quantum computer being emulated on our local machine very cool. We chose to work on the Forest-SDK, which is the compiler and backend for creating and simulating gates (something which they say would be needed in the future).</p>
+                    
+                    <blockquote>
+                        <p>"The most straightforward simulator backend – called Quantum Virtual Machine (QVM) – does exactly what we would expect: it runs a quantum algorithm and writes the measurement results to classical registers. After running a circuit a few times on the simulator, we can inspect the statistics of the results. We can define the number of qubits as part of instantiating the simulator."</p>
+                    </blockquote>
+                    
+                    <p>Doesn't sound very straightforward at all.</p>
+
+                    <h2>Classical and Quantum Probability Distributions</h2>
+                    <p>It begins with a simple coin toss, and tells about qubits. We are introducted with the ket function, and then entangled states as well. Negative probability doesn't make sense to me right now. But it is interesting to see that you are simulating some numbers, but how the simulation is being done is out of my knowledge (sadly). The first notebook was very simple to understand, except one thing, which I'll have to read about.</p>
+                    
+                    <p>$$\frac{1}{\sqrt{2}}(-|0\rangle + |1\rangle)$$</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ayush Gupta</p>
+        </div>
+    </footer>
+</body>
+</html>
