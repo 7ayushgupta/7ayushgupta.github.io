@@ -5,146 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Writing - Ayush Gupta</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="nav-container">
-                <a href="/" class="nav-brand">Ayush Gupta</a>
-                <div class="nav-links">
-                    <a href="/">Home</a>
-                    <a href="/writing.html">Writing</a>
-                    <a href="/projects.html">Projects</a>
-                    <a href="/timeline.html">Timeline</a>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="header">
+            <h1><a href="/" style="color: #E0E0E0;">writing</a></h1>
+        </header>
 
-    <aside class="sidebar">
-        <div class="sidebar-profile">
-            <div class="profile-avatar">AG</div>
-            <div class="profile-name">Ayush Gupta</div>
-        </div>
-        
-        <a href="/" class="nav-item">
-            <div class="nav-item-icon">🏠</div>
-            Home
-        </a>
-        
-        <div class="sidebar-section">
-            <div class="section-header">
-                <span>Craft</span>
-                <div class="section-chevron">▼</div>
-            </div>
-            <div class="section-content">
-                <a href="/writing.html" class="nav-item active">
-                    <div class="nav-item-icon">✏️</div>
-                    Writing
-                    <div class="nav-item-count">3</div>
-                </a>
-                <a href="/projects.html" class="nav-item">
-                    <div class="nav-item-icon">📊</div>
-                    Projects
-                </a>
-                <a href="/timeline.html" class="nav-item">
-                    <div class="nav-item-icon">📅</div>
-                    Timeline
-                </a>
-            </div>
-        </div>
-        
-        <div class="sidebar-section">
-            <div class="section-header">
-                <span>Connect</span>
-                <div class="section-chevron">▼</div>
-            </div>
-            <div class="section-content">
-                <a href="mailto:7ayushgupta@gmail.com" class="nav-item">
-                    <div class="nav-item-icon">📧</div>
-                    Email
-                </a>
-                <a href="https://github.com/7ayushgupta" target="_blank" rel="noopener" class="nav-item">
-                    <div class="nav-item-icon">💻</div>
-                    GitHub
-                </a>
-                <a href="/files/cv.pdf" target="_blank" rel="noopener" class="nav-item">
-                    <div class="nav-item-icon">📄</div>
-                    CV
-                </a>
-            </div>
-        </div>
-    </aside>
-
-    <main>
-        <div class="container">
-            <div class="main-content">
-                <h1>Writing</h1>
-                
-                <div class="writing-categories">
-                    <div class="writing-category">
-                        <h3>AI & Machine Learning</h3>
-                        <div class="writing-list">
-                            <div class="writing-item">
-                                <a href="/writing/qml-learning.html" class="writing-title">Quantum Machine Learning</a>
-                                <span class="writing-date">Apr 2020</span>
-                            </div>
-                            <div class="writing-item">
-                                <a href="/writing/rl-learning.html" class="writing-title">Reinforcement Learning Specialisation</a>
-                                <span class="writing-date">Apr 2020</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="writing-category">
-                        <h3>Career & Experience</h3>
-                        <div class="writing-list">
-                            <div class="writing-item">
-                                <a href="/writing/internships.html" class="writing-title">Internships</a>
-                                <span class="writing-date">Mar 31, 2019</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="writing-category">
-                        <h3>Miscellaneous</h3>
-                        <div class="writing-list">
-                            <div class="writing-item">
-                                <a href="#" class="writing-title">Coming soon...</a>
-                                <span class="writing-date">—</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Ayush Gupta</p>
-        </div>
-    </footer>
-
-<script>
-// Collapsible sidebar sections
-document.addEventListener('DOMContentLoaded', function() {
-    const sectionHeaders = document.querySelectorAll('.section-header');
-    
-    sectionHeaders.forEach(header => {
-        header.addEventListener('click', function() {
-            const section = this.parentElement;
-            const content = section.querySelector('.section-content');
-            const chevron = this.querySelector('.section-chevron');
+        <main class="main-content">
+            <section class="section">
+                <h3>AI & Machine Learning</h3>
+                <ul class="writing-list">
+                    <li class="writing-item">
+                        <a href="/writing/rl-learning.html">reinforcement learning specialisation</a>
+                    </li>
+                </ul>
+            </section>
             
-            content.classList.toggle('collapsed');
-            this.classList.toggle('collapsed');
-        });
-    });
-});
-</script>
+            <section class="section">
+                <h3>Career & Experience</h3>
+                <ul class="writing-list">
+                    <li class="writing-item">
+                        <a href="/writing/internships.html">internships</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
 </body>
 </html>

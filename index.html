@@ -3,118 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ayush Gupta</title>
+    <title>Ayush Gupta</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="nav-container">
-                <a href="/" class="nav-brand">Ayush Gupta</a>
-                <div class="nav-links">
-                    <a href="/">Home</a>
-                    <a href="/writing.html">Writing</a>
-                    <a href="/projects.html">Projects</a>
-                    <a href="/timeline.html">Timeline</a>
-        </div>
-        </div>
-</nav>
-    </header>
-
-    <aside class="sidebar">
-        <div class="sidebar-profile">
-            <div class="profile-avatar">AG</div>
-            <div class="profile-name">Ayush Gupta</div>
-      </div>
-
-        <a href="/" class="nav-item active">
-            <div class="nav-item-icon">🏠</div>
-            Home
-        </a>
-        
-        <div class="sidebar-section">
-            <div class="section-header">
-                <span>Craft</span>
-                <div class="section-chevron">▼</div>
-      </div>
-            <div class="section-content">
-                <a href="/writing.html" class="nav-item">
-                    <div class="nav-item-icon">✏️</div>
-                    Writing
-                    <div class="nav-item-count">3</div>
-                </a>
-                <a href="/projects.html" class="nav-item">
-                    <div class="nav-item-icon">📊</div>
-                    Projects
-                </a>
-                <a href="/timeline.html" class="nav-item">
-                    <div class="nav-item-icon">📅</div>
-                    Timeline
-                </a>
-    </div>
-  </div>
-        
-        <div class="sidebar-section">
-            <div class="section-header">
-                <span>Connect</span>
-                <div class="section-chevron">▼</div>
-      </div>
-            <div class="section-content">
-                <a href="mailto:7ayushgupta@gmail.com" class="nav-item">
-                    <div class="nav-item-icon">📧</div>
-                    Email
-                </a>
-                <a href="https://github.com/7ayushgupta" target="_blank" rel="noopener" class="nav-item">
-                    <div class="nav-item-icon">💻</div>
-                    GitHub
-                </a>
-                <a href="/files/cv.pdf" target="_blank" rel="noopener" class="nav-item">
-                    <div class="nav-item-icon">📄</div>
-                    CV
-                </a>
-    </div>
-  </div>
-    </aside>
-
-    <main>
     <div class="container">
-            <div class="main-content">
-                <section class="intro">
-                    <h1>Hello! I'm Ayush.</h1>
-                    <p>I'm currently a Senior Associate at JPMorgan Chase, contributing to the Securitized Products Group with a focus on Non-Agency MBS modeling. I graduated with a Bachelor of Technology in Mechanical Engineering from the Indian Institute of Technology, Kanpur.</p>
-                    <p>I'm proficient in machine learning, deep learning, and mathematics, leveraging these skills to address complex financial modeling challenges. My work involves predictive modeling and large language models to enhance quantitative analysis in the financial sector.</p>
-                    <p>Previously, I've contributed to impactful projects including COVID-19 response systems and autonomous vehicle research, highlighting my robust analytical and problem-solving capabilities. I led the software development for Team AUV-IITK's autonomous underwater vehicle, achieving first runner-up at the national level AUV competition.</p>
-                    <p>I'm passionate about applying cutting-edge technology to solve real-world problems, whether in finance, robotics, or environmental conservation through machine learning.</p>
-  </section>
-  </div>
-    </div>
-    </main>
+        <header class="header">
+            <h1>hi im ayush</h1>
+            <div class="profile-image">AG</div>
+        </header>
 
-    <footer>
-    <div class="container">
-            <p>&copy; 2024 Ayush Gupta</p>
-  </div>
-</footer>
-    
-    <script>
-// Collapsible sidebar sections
-document.addEventListener('DOMContentLoaded', function() {
-    const sectionHeaders = document.querySelectorAll('.section-header');
-    
-    sectionHeaders.forEach(header => {
-        header.addEventListener('click', function() {
-            const section = this.parentElement;
-            const content = section.querySelector('.section-content');
-            const chevron = this.querySelector('.section-chevron');
-            
-            content.classList.toggle('collapsed');
-            this.classList.toggle('collapsed');
-        });
-    });
-});
-    </script>
+        <main class="main-content">
+            <section class="section">
+                <h2 class="section-title">Currently</h2>
+                <div class="section-item">
+                    <div class="section-item-content">
+                        <div class="section-item-title">Senior Associate</div>
+                        <div class="section-item-subtitle">JPMorgan Chase & Co.</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Previously</h2>
+                <div class="section-item">
+                    <div class="section-item-content">
+                        <div class="section-item-title">Associate</div>
+                        <div class="section-item-subtitle">JPMorgan Chase & Co.</div>
+                    </div>
+                </div>
+                <div class="section-item">
+                    <div class="section-item-content">
+                        <div class="section-item-title">Analyst</div>
+                        <div class="section-item-subtitle">JPMorgan Chase & Co.</div>
+                    </div>
+                </div>
+                <div class="section-item">
+                    <div class="section-item-content">
+                        <div class="section-item-title">Quantitative Research Intern</div>
+                        <div class="section-item-subtitle">Stat Edge LLP</div>
+                    </div>
+                </div>
+                <div class="section-item">
+                    <div class="section-item-content">
+                        <div class="section-item-title">Machine Learning Researcher</div>
+                        <div class="section-item-subtitle">Moja Global</div>
+                    </div>
+                </div>
+                <div class="section-item">
+                    <div class="section-item-content">
+                        <div class="section-item-title">Software Team Lead</div>
+                        <div class="section-item-subtitle">Team AUV-IITK</div>
+                    </div>
+                </div>
+                <div class="section-item">
+                    <div class="section-item-content">
+                        <div class="section-item-title">Bachelor of Technology</div>
+                        <div class="section-item-subtitle">Indian Institute of Technology, Kanpur</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Projects</h2>
+                <ul class="project-list">
+                    <li class="project-item">
+                        <a href="/projects.html">space debris mitigation using guided solar sails</a>
+                    </li>
+                    <li class="project-item">
+                        <a href="/projects.html">realtime onboard dense rgb-d mapping on uavs</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Writing</h2>
+                <ul class="writing-list">
+                    <li class="writing-item">
+                        <a href="/writing/rl-learning.html">reinforcement learning specialisation</a>
+                    </li>
+                    <li class="writing-item">
+                        <a href="/writing/internships.html">internships</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
