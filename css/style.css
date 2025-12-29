@@ -240,6 +240,35 @@ aside.sidebar {
     color: #E0E0E0;
 }
 
+/* Social media icons */
+.social-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #B0B0B0;
+    transition: color 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #E0E0E0;
+    transform: translateY(-2px);
+}
+
+.social-links svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
 /* Main content with sidebar */
 body > main > .container {
     flex: 1;
